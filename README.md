@@ -115,6 +115,19 @@ TSGM provides a number of time series augmentations.
 | Magnitude warping  | `tsgm.augmentations.MagnitudeWarping` | [Data Augmentation of Wearable Sensor Data for Parkinson’s Disease Monitoring using Convolutional Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3136755.3136817) |
 | Window warping  | `tsgm.augmentations.WindowWarping` | [Data Augmentation for Time Series Classification using Convolutional Neural Networks](https://shs.hal.science/halshs-01357973/document) |
 
+## Update from Md Fahim Sikder (Adding Docker image)
+
+Added docker environment for the repo!
+
+To install and run using docker:
+
+```terminal
+$ chmod +x build.sh
+$ ./build.sh
+$ chmod + run.sh
+$ ./run.sh
+```
+
 
 ## Contributing
 We appreciate all contributions. To learn more, please check [CONTRIBUTING.md](CONTRIBUTING.md).
